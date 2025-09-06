@@ -1,0 +1,13 @@
+# Ignorer Python virtual environment
+venv/
+
+# Ignorer Python cache
+__pycache__/
+*.pyc
+
+# Ignorer logfiler
+*.log
+
+# Ignorer midlertidige filer
+*.tmp
+*.swp
