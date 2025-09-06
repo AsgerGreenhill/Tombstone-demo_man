@@ -1,13 +1,36 @@
-# Ignorer Python virtual environment
+# ==========================
+# Python / MPF / Tombstone
+# ==========================
+
+# Python virtual environment
 venv/
 
-# Ignorer Python cache
+# Python cache
 __pycache__/
 *.pyc
 
-# Ignorer logfiler
+# Logfiler
 *.log
 
-# Ignorer midlertidige filer
+# Midlertidige filer
 *.tmp
 *.swp
+
+# MPF specifikke temp/cache filer
+*.backup
+*.old
+*.swp
+*.tmp
+
+# Ignorer Godot temporære filer (hvis du bruger Godot)
+.import/
+.export/
+*.import
+
+# Ignorer submodules (hvis demo_man er submodule)
+demo_man/
+
+# Andre store/irrelevante filer
+*.dll
+*.exe
+*.pdb
