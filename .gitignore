@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ==========================
 # Python / MPF / Tombstone
 # ==========================
@@ -34,3 +35,21 @@ demo_man/
 *.dll
 *.exe
 *.pdb
+=======
+# Godot 4+ specific ignores
+.godot/
+.nomedia
+
+# Godot-specific ignores
+.import/
+export.cfg
+export_credentials.cfg
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# Mono-specific ignores
+.mono/
+data_*/
+mono_crash.*.json
+>>>>>>> 4fb7316fb6ac06b5f69ecffd207a371ed9d6c0ff
